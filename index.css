@@ -1,126 +1,90 @@
-.hover-effect:hover {
-    opacity: 50%;
-}
-
-.hover-effect {
- 
-    padding: 3px;
-    border-radius: 3px;
-    filter:grayscale(0)
-    
-}
-
-
-
-img:first-child {
-    filter:grayscale(1)
-}
-
-
-body {
-    color: gray;
-    font-family: arial, sans-serif;
-    font-size: 15px;
-    line-height: 22px;
-    
-    
-}
-a
-{
-    color:gray;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-header li a {
-    display: inline-block;
-    vertical-align: top;
-}
-header li a:hover {
-    background-color: aliceblue;
-    color:gray;
-
-}
-header li:hover .sous-menu {
- display: block;
-}
-
-.sous-menu {
-    display: none;
-    position:absolute
-    width: 200px;
-}
-
-sous-menu li {
-    display: block
-}
-
-.sous-menu li:hover a {
-    background-color:blue;
-    color: pink;
-}
-.conteneur
-{
+.nav {
+    display: block;
     display: flex;
+    background-color: darkgray;
     width: 100%;
-    justify-content: space-between;
+    color: white
+    margin: auto;
+    padding: auto;
 
 }
-
-
-
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.oneoneone {
-    width: 500px;
+.sousnav {
+    background-color: lightgray;
+    height: 250PX;
+    width: 100%;
     
 }
+.rectangle1 {
+height: 100px;
+width: 400px;
+border: 2px solid grey;
+background-color: lightgray;
+}
+.rectangle2 {
+height: 100px;
+width: 400px;
+border: 2px solid grey;
+background-color: lightgray;
+    
+}
+.rectangle3 {
+    height: 100px;
+    width: 400px;
+    border: 2px solid grey;
+    background-color: lightgray;
+}
+.rectangle {
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkgrey;
+    padding: auto;
+    margin: auto;
+}
+.bouton
+{
+    display: block;
+    position:relative;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+}
+
+.formulaire {
+    display: block;
+    flex-direction: column;
+    padding: 3px;
+
+}
+.formulaire1 {
+    height: 20%;
+    width: 100%;
+    border: 2px solid grey;
+}
+.formulaire2 {
+    height: 20%;
+    width: 100%;
+    border: 2px solid grey;}
+.formulaire3 {
+    height: 20%;
+    width: 100%;
+    border: 2px solid grey;
+}
+   
 
 @media screen and (max-width: 600px) {
 * {
-    background-color: salmon;
+    
     margin: 5px;
     padding: 2px;
-}
-.projet1 {
-    flex-direction: column;
-    
-}
-.projet2 {
-    flex-direction: column;
-}
-.projet3 {
-    flex-direction: column;
-}
-h2 {
-    text-align: center;
-}
-.Article1 {
-    flex-direction: column;
-}
-form {
-    
-    justify-content: center;
-}
-.oneoneone {
-    width: ;
-}
-h1 {
-    font-size: 23px;
-}
-body {
-    font-size: 15px;
-}
-.conteneur
-{
-    flex-direction: column-reverse;
-}
-.hover-effect {
-    width: 50%;
-}
-
-}
+}}
 
 @media screen and (min-width: 600px) {
     * {
@@ -132,40 +96,3 @@ body {
         font-size: 25px;
     }
 }
-
-.mpsb, footer
-{
-   text-align: end;
-   font-style: italic;
-}
-.mesetudes
-{
-    display: flex;
-}
-.projet1
-{
-    display: flex;
-}
-.projet2
-{
-    display: flex;
-}
-.projet3
-{
-    display: flex;
-}
-.Article1 {
-    display: flex;
-}
-
-.article2 {
-    display:flex;
-}
-main{
-    padding: 5px;
-    padding-top: 5px;
-}
-.sous-menu{
-    margin-top: 100px;
-}
-
