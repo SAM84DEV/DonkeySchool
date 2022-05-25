@@ -1,0 +1,67 @@
+.hover-effect:hover {
+    opacity: 50%;
+}
+
+.hover-effect {
+    border-radius: 3px;
+    filter:grayscale(0)
+}
+
+img:first-child {
+    filter:grayscale(1)
+}
+
+body {
+    color: gray;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    line-height: 22px;
+}
+a
+{
+    text-decoration: none;
+
+}
+
+a
+{
+    color:gray;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header li a {
+    display: inline-block;
+    vertical-align: top;
+}
+header li a:hover {
+    background-color: aliceblue;
+    color:gray;
+
+}
+header li:hover .sous-menu {
+ display: block;
+}
+
+.sous-menu {
+    display: none;
+    position:absolute
+    width: 200px;
+}
+
+sous-menu li {
+    display: block
+}
+
+.sous-menu li:hover a {
+    background-color:blue;
+    color: pink;
+}
+
+.one
+{
+    line-height: 1;
+    font-size:small;
+    text-align:center;
+   
+}
