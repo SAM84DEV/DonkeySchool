@@ -3,26 +3,28 @@
 }
 
 .hover-effect {
+ 
+    padding: 3px;
     border-radius: 3px;
     filter:grayscale(0)
+    
 }
+
+
 
 img:first-child {
     filter:grayscale(1)
 }
 
+
 body {
     color: gray;
     font-family: arial, sans-serif;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 22px;
+    
+    
 }
-a
-{
-    text-decoration: none;
-
-}
-
 a
 {
     color:gray;
@@ -57,11 +59,113 @@ sous-menu li {
     background-color:blue;
     color: pink;
 }
-
-.one
+.conteneur
 {
-    line-height: 1;
-    font-size:small;
-    text-align:center;
-   
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
 }
+
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.oneoneone {
+    width: 500px;
+    
+}
+
+@media screen and (max-width: 600px) {
+* {
+    background-color: salmon;
+    margin: 5px;
+    padding: 2px;
+}
+.projet1 {
+    flex-direction: column;
+    
+}
+.projet2 {
+    flex-direction: column;
+}
+.projet3 {
+    flex-direction: column;
+}
+h2 {
+    text-align: center;
+}
+.Article1 {
+    flex-direction: column;
+}
+form {
+    
+    justify-content: center;
+}
+.oneoneone {
+    width: ;
+}
+h1 {
+    font-size: 23px;
+}
+body {
+    font-size: 15px;
+}
+.conteneur
+{
+    flex-direction: column-reverse;
+}
+.hover-effect {
+    width: 50%;
+}
+
+}
+
+@media screen and (min-width: 600px) {
+    * {
+        background-color: blue;
+        margin: 5px;
+        padding: 2px;
+    }
+    H1{
+        font-size: 25px;
+    }
+}
+
+.mpsb, footer
+{
+   text-align: end;
+   font-style: italic;
+}
+.mesetudes
+{
+    display: flex;
+}
+.projet1
+{
+    display: flex;
+}
+.projet2
+{
+    display: flex;
+}
+.projet3
+{
+    display: flex;
+}
+.Article1 {
+    display: flex;
+}
+
+.article2 {
+    display:flex;
+}
+main{
+    padding: 5px;
+    padding-top: 5px;
+}
+.sous-menu{
+    margin-top: 100px;
+}
+
